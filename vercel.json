@@ -1,0 +1,5 @@
+{
+  "buildCommand": "git submodule update --init --recursive && cd Frontend/iwhome.app-base44sdk && npm install && npm run build",
+  "outputDirectory": "Frontend/iwhome.app-base44sdk/dist",
+  "installCommand": "echo 'skip'"
+}
